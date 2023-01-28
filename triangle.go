@@ -17,3 +17,9 @@ func (t triangle) perimeter() float64 {
 	a := math.Sqrt(math.Pow(t.base, 2) + math.Pow(t.height, 2))
 	return a + t.base + t.height
 }
+
+func main() {
+	t := triangle{base: 3, height: 4}
+	fmt.Println("Area of triangle:", t.area())
+	fmt.Println("Perimeter of triangle:", t.perimeter())
+}
