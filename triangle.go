@@ -10,6 +10,3 @@ type triangle struct {
 	height float64
 }
 
-func (t triangle) area() float64 {
-	return 0.5 * t.base * t.height
-}
