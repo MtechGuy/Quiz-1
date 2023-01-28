@@ -23,4 +23,12 @@ func main() {
 
 	fmt.Println("Area of triangle:", t.area())
 	fmt.Println("Perimeter of triangle:", t.perimeter())
+
+	c := circle{radius: 5}
+	fmt.Println("Area of circle:", c.area())
+	fmt.Println("Perimeter of circle:", c.perimeter())
+
+	area, perimeter := square(5)
+	fmt.Println("Area of square:", area)
+	fmt.Println("Perimeter of square:", perimeter)
 }

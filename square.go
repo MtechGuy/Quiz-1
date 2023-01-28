@@ -9,3 +9,4 @@ func square(s float64) (float64, float64) {
 	perimeter := 4 * s
 	return area, perimeter
 }
+
