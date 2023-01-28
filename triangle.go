@@ -20,6 +20,7 @@ func (t triangle) perimeter() float64 {
 
 func main() {
 	t := triangle{base: 3, height: 4}
+
 	fmt.Println("Area of triangle:", t.area())
 	fmt.Println("Perimeter of triangle:", t.perimeter())
 }
